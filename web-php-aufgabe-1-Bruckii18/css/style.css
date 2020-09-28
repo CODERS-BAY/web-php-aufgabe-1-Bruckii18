@@ -1,0 +1,53 @@
+body {
+    background-color: #D0D0D0;
+    margin: auto;
+    font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    border: 2px solid black;
+    box-shadow: 10px 5px 5px black;
+    max-width: 500px;
+    display: block;
+    margin: auto;
+    padding: 1rem;
+}
+
+nav {
+    background-color: #A7A7A7;
+    padding: 0.5rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
+form {
+    padding-left: 2rem;
+    text-align: left;
+}
+
+input[type="submit"] {
+    font-family: 'Oswald', sans-serif;
+    border-radius: 10px;
+    background-color: #A7A7A7;
+    padding: 5px;
+    margin: 10px;
+}
